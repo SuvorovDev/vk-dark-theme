@@ -14,7 +14,7 @@
 
 @var checkbox fixNav			"Зафиксировать положение бокового меню" 1
 @var checkbox stickerOutline	"Обводка стикеров" 1
-@var checkbox giftsCrutch		"Костыль для стикеров" 1
+@var checkbox giftsCrutch		"Костыль для подарков" 1
 
 @var color _c_bg				"description"	#282B2F
 @var color _c_fg				"description"	#373B3E
@@ -440,6 +440,13 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 .VideoLiveCoderSettings__warning {
 	color: _c_text_gray
 }
+//Диалоги не беспокоить
+.nim-dialog.nim-dialog_muted.nim-dialog_selected .nim-dialog--mute{
+	color: _c_text_white
+}
+.nim-dialog.nim-dialog_muted .nim-dialog--mute, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected.nim-dialog_muted .nim-dialog--mute {
+	color: _c_text_gray
+}
 
 /*=========================================
 			ФИКС БЕЛОГО ЦВЕТА
@@ -524,6 +531,9 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 }
 [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--unread-badge, [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--unread, [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--unread-badge, [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--unread {
 	background-color: _c_text_white
+}
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--close, .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--close{
+	color: _c_text_white
 }
 
 /*=========================================
@@ -656,6 +666,10 @@ if TopBar=="top_dark" {
 	// Стрелка у аватара
 	.TopNavBtn__profileArrow {
 		color: #858e96
+	}
+	// Фон поиска
+	[dir] .TopSearch__input{
+		bg(_c_bg!important)
 	}
 
 	// ---------- SCROLLBAR ----------
@@ -832,35 +846,4 @@ if giftsCrutch {
 .reply_content > .reply_text > div {
 	bg(transparent!important)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
