@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name				VK Dark Theme
 @namespace			https://github.com/Suvorov-m/vk-dark-theme
-@version			2.0.0
+@version			2.0.1
 @description		Customisable dark theme for vk.com
 @author				Suvorov Mikhail
 @homepageURL		https://vk.com/vk.darktheme
@@ -166,6 +166,8 @@ brb(border_b = _c_border){
 	--accent: _c_blue_light
 	// Текст в некоторых местах
 	--black: _c_text_white
+	// Фон диалогов в левом нижнем углу
+	--im_bubble_outgoing: _c_blue
 	// :hover
 	--background_hover: #ffffff1f
 }
@@ -502,7 +504,9 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 .videoplayer,
 .videoplayer_timeline_preview ._text,
 .videoplayer_context_menu ._item:hover,
-.videoplayer_tooltip ._text{
+.videoplayer_tooltip ._text,
+.VideoCard__label,
+.mv_playlist .mv_playlist_header .mv_playlist_header_title{
 	color: _c_text_main
 }
 
@@ -549,7 +553,8 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 [dir] #layer_bg,
 [dir] #mv_progress_box,
 [dir] .ModalPreloader__background,
-[dir] #mv_box .video_box_wrap, [dir] .videoplayer{
+[dir] #mv_box .video_box_wrap, [dir] .videoplayer,
+[dir] .Videoview #layer_bg{
 	bg(_c_black)
 }
 
@@ -564,6 +569,9 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 // * Старые иконки для музыки
 [dir] .audio_w_covers .audio_row .audio_row__cover {
 	background-image: url(http://vk.suvorov.cc/content/track_image.png)
+}
+[dir] .audio_w_covers .audio_row .audio_row__cover > svg {
+	display: none
 }
 // Зеленые онлайн статусы
 [dir] .mob_onl {
@@ -649,7 +657,6 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 	color: _c_text_gray !important
 }
 
-
 /*=========================================
 			ВЫБОР ШАПКИ
 =========================================*/
@@ -699,10 +706,13 @@ else if TopBar=="top_blue" {
 	
 	// ---------- СИНЯЯ ШАПКА ----------
 
-	// Фон */
+	// Фон
 	[dir] body.new_header_design #page_header_cont {
 		background-color: _c_blue
 		border-bottom-color: _c_blue
+	}
+	[dir] .video_showcase .page_header_wrap {
+		background-color: _c_blue
 	}
 	// Фон поиска
 	[dir] .TopSearch__input {
@@ -838,10 +848,6 @@ if giftsCrutch {
 ::selection {
 	background-color: _c_select 
 }
-
-
-
-
 
 .reply_content > .reply_text > div {
 	bg(transparent!important)
