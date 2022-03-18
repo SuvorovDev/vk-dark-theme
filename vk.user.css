@@ -658,6 +658,14 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 .post_video_title {
 	color: _c_text_gray !important
 }
+// Заголовок окна ссылок сообщества
+[dir] .box_title_wrap {
+	bg(_c_fg)
+}
+// Цвет особых диалогов (Администрация Вк)
+.mem_special{
+	color: _c_green
+}
 
 /*=========================================
 			ВЫБОР ШАПКИ
