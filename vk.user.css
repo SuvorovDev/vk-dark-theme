@@ -170,6 +170,8 @@ brb(border_b = _c_border){
 	--im_bubble_outgoing: _c_blue
 	// :hover
 	--background_hover: #ffffff1f
+	// Цвет небольших иконок
+	--icon_tertiary: #fff9
 }
 
 /*=========================================
