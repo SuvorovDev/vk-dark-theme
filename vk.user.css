@@ -89,6 +89,7 @@ brb(border_b = _c_border){
 	--steel_gray_60: _c_border
 	--separator_alpha: _c_border
 	--separator_common: _c_border
+	--landing_snippet_border: _c_border
 	// Инпуты
 	--input_border: _c_border
 	--steel_gray_120: _c_border
