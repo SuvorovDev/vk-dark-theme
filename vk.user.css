@@ -542,6 +542,18 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 	color: _c_text_white
 }
 
+// Опросы
+.media_voting_bg_photo .media_voting_question, .media_voting_bg_gradient .media_voting_question, .media_voting_bg_tile .media_voting_question,
+.media_voting_bg_photo .media_voting_option_text, .media_voting_bg_gradient .media_voting_option_text, .media_voting_bg_tile .media_voting_option_text {
+	color: _c_text_white
+}
+
+// Статьи
+.article_snippet .article_snippet__title,
+.article_snippet .article_snippet__author {
+	color: _c_text_white
+}
+
 /*=========================================
 			ФИКС ЧЕРНОГО ЦВЕТА
 =========================================*/
