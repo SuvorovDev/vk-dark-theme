@@ -369,10 +369,6 @@ input.ui_search_field:focus::placeholder,
 input.ui_search_field:focus ~ .placeholder .ph_content {
 	color: rgba(_c_text_gray, 0.5)
 }
-// Иконка при отсутствии постов на странице
-[dir] .no_posts_cover {
-	background-image: url(http://vk.suvorov.cc/content/no_posts.png)
-}
 // Фон плейлиста в видео плеере
 [dir] .mv_playlist,
 [dir] .VideoRecomsItem,
@@ -433,10 +429,6 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 // Выбор времени в календаре
 [dir] .result_list {
 	bg()
-}
-// Комменты заблокированы
-[dir] .pv_cont .pv_closed_commments_placeholder {
-	background-image: url(http://vk.suvorov.cc/content/lock.png)
 }
 // Запуск трансляции
 .VideoLiveCoderSettings__warning {
