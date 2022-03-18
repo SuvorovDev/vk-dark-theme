@@ -214,7 +214,7 @@ brb(border_b = _c_border){
 	bg(_c_bg)
 }
 [dir] .emoji_sprite{
-	background-image: url(https://vk.suvorov.cc/content/emoji_sprite.png)
+	background-image: url(https://raw.githubusercontent.com/Suvorov-m/vk-dark-theme/main/img/emoji_sprite.png)
 }
 [dir] .ui_scroll_default_theme.ui_scroll_emoji_theme .ui_scroll_shadow_bottom,
 [dir] .ui_scroll_default_theme.ui_scroll_emoji_theme .ui_scroll_shadow_top,
@@ -223,10 +223,10 @@ brb(border_b = _c_border){
 [dir] .ui_scroll_default_theme.ui_scroll_emoji_theme>.ui_scroll_overflow>.ui_scroll_shadow_bottom,
 [dir] .ui_scroll_default_theme.ui_scroll_emoji_theme>.ui_scroll_overflow>.ui_scroll_shadow_top,
 [dir] .emoji_cats_title_helper:after{
-	background:url(https://vk.suvorov.cc/content/emoji_sprite.png) 0 -29px
+	background:url(https://raw.githubusercontent.com/Suvorov-m/vk-dark-theme/main/img/emoji_sprite.png) 0 -29px
 }
 [dir] .emoji_tab_icon_favorite {
-	background-image: url(https://vk.suvorov.cc/content/favorite.svg)
+	background-image: url(https://raw.githubusercontent.com/Suvorov-m/vk-dark-theme/main/img/favorite.svg)
 }
 [dir] .emoji_tt_wrap.tt_down:after {
 	brt(_c_bg)
@@ -560,14 +560,14 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 }
 // * Старые иконки для музыки
 [dir] .audio_w_covers .audio_row .audio_row__cover {
-	background-image: url(http://vk.suvorov.cc/content/track_image.png)
+	background-image: url(https://raw.githubusercontent.com/Suvorov-m/vk-dark-theme/main/img/track_image.png)
 }
 [dir] .audio_w_covers .audio_row .audio_row__cover > svg {
 	display: none
 }
 // Зеленые онлайн статусы
 [dir] .mob_onl {
-	background-image: url(http://vk.suvorov.cc/content/phone_online.png)
+	background-image: url(https://raw.githubusercontent.com/Suvorov-m/vk-dark-theme/main/img/phone_online.png)
 }
 [dir] .profile_online {
 	color: _c_green
@@ -709,7 +709,7 @@ else if TopBar=="top_blue" {
 	// Фон поиска
 	[dir] .TopSearch__input {
 		background-color: #224b7a!important
-		background-image: url(https://vk.suvorov.cc/content/lens.svg)
+		background-image: url(https://raw.githubusercontent.com/Suvorov-m/vk-dark-theme/main/img/lens.svg)
 	}
 	// Текст поиска
 	body.new_header_design .TopSearch__input::placeholder, body.new_header_design .TopSearch .input_back_content {
