@@ -448,7 +448,7 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 
 // Заголовки окон
 .PopupHeader__title,
-.box_title{
+.box_title {
 	color: _c_text_main
 }
 
@@ -459,17 +459,17 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 .StoryInfo__title,
 .stories_layer,
 .stories_send_form_text, .stories_send_form_text *,
-.stories_story_bottom_controls .ui_actions_menu_item{
+.stories_story_bottom_controls .ui_actions_menu_item {
 	color: _c_text_main
 }
 
 .cal_month_sel,
 .cal_table .day.sel, .cal_table .day.sel:hover,
-.fc_tab_title{
+.fc_tab_title {
 	color: _c_text_main
 }
 
-.stories_send_form_text{
+.stories_send_form_text {
 	color: _c_text_main !important
 }
 
@@ -480,17 +480,17 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 .owner_photo_bubble,
 .page_album_title,
 .post_doc_thumb_label_content,
-.post_doc_thumb_label_content .divider:before{
+.post_doc_thumb_label_content .divider:before {
 	color: _c_text_main
 }
 
-[dir] .stories_time_line_item_cont_active{
+[dir] .stories_time_line_item_cont_active {
 	bg(_c_text_main)
 }
 
 // Видеоплеер
 [dir] .videoplayer_slider ._filled,
-[dir] .videoplayer_slider ._handle{
+[dir] .videoplayer_slider ._handle {
 	bg(_c_text_main)
 }
 .videoplayer,
@@ -498,7 +498,7 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 .videoplayer_context_menu ._item:hover,
 .videoplayer_tooltip ._text,
 .VideoCard__label,
-.mv_playlist .mv_playlist_header .mv_playlist_header_title{
+.mv_playlist .mv_playlist_header .mv_playlist_header_title {
 	color: _c_text_main
 }
 
@@ -507,17 +507,22 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 	color: _c_text_main
 }
 
+// Фото
+.photos_container_albums .photos_album_title_wrap {
+	color: _c_text_main
+}
+
 // Обрезать изображение
-.CropControls__button--cancel, .CropControls__button--cancel:not(.Button--disabled):active{
+.CropControls__button--cancel, .CropControls__button--cancel:not(.Button--disabled):active {
 	color: _c_text_main
 }
 
 // Магазин стикеров
-.im_sticker_bl_promo{
+.im_sticker_bl_promo {
 	color: _c_text_main
 }
 [dir] .StickersButtonPrice--regular::after,
-[dir] .StickersPriceButton__regular::after{
+[dir] .StickersPriceButton__regular::after {
 	bg(_c_text_main)
 }
 
@@ -528,7 +533,12 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--unread-badge, [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--unread, [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--unread-badge, [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--unread {
 	background-color: _c_text_white
 }
-.nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--close, .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--close{
+.nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--close, .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--close {
+	color: _c_text_white
+}
+
+// Уведомления
+.notifier_baloon {
 	color: _c_text_white
 }
 
