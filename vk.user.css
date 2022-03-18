@@ -505,7 +505,11 @@ input, [dir] input[type=text], [dir] input[type=submit], [dir] input[type=button
 }
 
 // Музыка
-.BannerItem--cover .BannerItem__title, .BannerItem--cover .BannerItem__text, .BannerItem--cover_header .BannerItem__title, .BannerItem--cover_header .BannerItem__text {
+.BannerItem--cover .BannerItem__title, .BannerItem--cover .BannerItem__text, .BannerItem--cover_header .BannerItem__title, .BannerItem--cover_header .BannerItem__text,
+.RecomsPlaylist__action--play,
+.RecomsPlaylist__title, .RecomsPlaylist__subtitle,
+.RecommendedPlaylist__matchValue, .RecommendedPlaylist__title, .RecommendedPlaylist__matchText, .RecommendedPlaylist__ownerName,
+.RecomsPlaylist__logoIcon {
 	color: _c_text_main
 }
 
