@@ -1,6 +1,9 @@
 <p align="center">
 	<img alt="github-logo" src="https://raw.githubusercontent.com/Suvorov-m/vk-dark-theme/main/img/logo_git.png" width="200">
 	<br>
+	<h3 align="center">
+		Проект заморожен в связи с релизом официальной темной темы
+	</h1>
 	<h1 align="center">
 		VK Dark Theme
 	</h1>
@@ -12,6 +15,7 @@
 	<p align="center">
 		Темная тема для <a href="https://www.vk.com">VK.com</a>, с возможностью кастомизации
 	</p>
+	
 </p>
 
 ## Превью
